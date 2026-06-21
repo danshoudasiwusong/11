@@ -1,0 +1,35 @@
+# Build outputs
+_build/
+out/
+debug/
+release/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+moc_*.cpp
+moc_predefs.h
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+
+# Visual Studio
+.vs/
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# CMake
+CMakePresets.json
+CMakeUserPresets.json
+build/
+
+# Qt Creator
+FaceRecognitionLogin.pro.user
+
+# Database (local user data)
+*.db
